@@ -7,7 +7,7 @@
     grid-area: sidebar;
 
   }
-.link {
+a {
   font-family: 'Dancing Script', cursive;
   text-decoration: none;
   color: purple;
@@ -35,7 +35,7 @@ strong {
     display: grid;
     /* grid-template-columns: 20px auto 20px; */
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 150px auto auto 200px;
+    grid-template-rows: auto auto auto auto;
     /* grid-template-rows: repeat(3, 200px); */
     grid-column-gap: 10px;
     grid-row-gap: 15px;
